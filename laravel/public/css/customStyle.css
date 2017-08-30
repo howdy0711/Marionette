@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+*{ font-family: 'Noto Sans KR', sans-serif !important; }
+.book_menu{ text-align: center; margin-top:50px; }
+.table_size_m{ width:80%; margin:auto; }
+.login_box{ width:400px; margin:auto;}
+.login_box input{ margin-top : 13px; }
+.input_group{ margin:15px;}
+.login_box span{ font-size: 1.5em; }
+#id_empty, #pw_empty, #id_pw_error{ visibility:hidden; }
+#storyBook div{ width:100%; height:100%;}
+#storyBook img{ width:100%; height:100%; }
+.book_title{ position:absolute; top:100px; margin: auto; background-color:yellow;}
+
+#storyBook { background-size: 100%; box-shadow: 10px 10px 10px 10px #888888;}
+/*#storyBook div:nth-child(odd){ box-shadow: 10px 10px 10px #888888; }*/
+/*#storyBook div:nth-child(even){ box-shadow: 10px 10px 10px #888888; }*/
+.main_content_title{ font-size:3em; color:white; background-color: rgba(0,0,0,0.3); border-radius:30px; padding:30px; }
+.category { display:inline; font-size:1em; color:white; background-color: rgba(0,0,0,0.3); border-radius:20px; padding:5px; }
+
+body{background-color:pink;}
+
+.exam>a { dispaly:inline-block; text-align:right }
